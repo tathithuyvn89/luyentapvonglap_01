@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In ra Buzz va Fizzbuzz</title>
+</head>
+<body>
+<script>
+    let i;
+    let hienthi;
+
+   for (i=1; i<=100;i++) {
+       hienthi=i;
+       if (i%3===0&&i%5===0) {
+           hienthi="BuzzFizzBuzz";
+       }else {
+           if (i%3===0) {
+               hienthi="Buzz";
+           }
+           if (i%5===0) {
+               hienthi= "FizzBuzz";
+           }
+       }
+
+
+       document.write(hienthi+",,,");
+    }
+
+</script>
+</body>
+</html>
